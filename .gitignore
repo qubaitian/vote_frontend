@@ -1,0 +1,44 @@
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+
+### VS Code ###
+.vscode/
+
+### local ###
+.idea/
+*.log
+*.tar.gz
+*.zip
+*.tgz
+*.gz
+*.deb
+
+### node_modules ###
+**/node_modules/**
+
+### python ###
+**/.pytest_cache/**
+**/__pycache__/**
+
+**/.DS_Store
+**/known_hosts
+**/known_hosts.old
+**/.ipynb_checkpoints/**
